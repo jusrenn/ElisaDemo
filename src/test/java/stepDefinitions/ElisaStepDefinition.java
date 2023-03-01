@@ -41,8 +41,8 @@ public class ElisaStepDefinition {
         puhelimetJaTarvikkeetPage.puhelimet.click();
         logger.info("Puhelimet linkki klikattu!");
     }
-    @Given("Urunleri sirala")
-    public void urunleri_sirala() {
+    @Given("Järjestele tuotteita")
+    public void jarjestele_tuotteita() {
         puhelimetPage.lisaaRajausDropDownMenu.click();
         logger.info("Lisää rajaus dropdown menu klikattu!");
         puhelimetPage.appleLabel.click();

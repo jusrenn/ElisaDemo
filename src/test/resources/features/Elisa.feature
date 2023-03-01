@@ -5,7 +5,7 @@ Feature: Elisa.fi
   Scenario Outline: Käyttäjä etsii ja ostaa elisa.fi:ssa tuotteita.
     * Menee elisa.fi nettisivulle.
     * Menee puhelimet sivulle.
-    * Urunleri sirala
+    * Järjestele tuotteita
     * Klikkaa ensimmäistä tuotetta.
     * Vahvista että onko "<String>" valittu.
     * Sulje browser.
